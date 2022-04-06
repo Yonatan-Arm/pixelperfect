@@ -3,7 +3,7 @@
       <custom-card>
       <template #header>
         <div class="prevImg">
-          <img src='item.prevImg' alt="prevImg" />
+          <img src="{{item.prevImg}}" alt="prevImg" />
           </div>        
       </template>
       <template #main>
