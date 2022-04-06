@@ -1,0 +1,43 @@
+.acess{
+    padding: rem(80px);
+    justify-content: center;
+    margin-top: rem(200px);
+    align-items: center;
+    color: $clr2;
+    background-color: $clr6;
+    padding: rem(40px) rem(20px);
+    .details{
+        @include for-sm-layout {
+            flex-direction: column;
+            gap: 10px;
+         }
+
+    }
+
+    h1{
+        font-size: rem(32px);
+        font-family: rale-bold;
+    }
+    input{
+        width: rem(500px);
+        border-radius: rem(30px);
+        height: rem(40px);
+        margin-right: rem(10px);
+        @include for-sm-layout {
+            width: 60vw;
+         }
+    }
+    button{
+        height: rem(40px);
+        width: rem(200px);
+        border-radius: rem(30px);
+        background-color: $clr3;
+        color: $clr2;
+        font-size: rem(16px);
+        font-family:rale-bold;
+        @include for-sm-layout {
+            width: 60vw;
+         }
+
+    }
+}

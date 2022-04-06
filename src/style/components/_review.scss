@@ -1,0 +1,25 @@
+.reviews{
+    justify-content: center;
+    margin-top: rem(50px);
+    gap: rem(50px);
+    @include for-sm-layout {
+        flex-direction: column;
+     }
+}
+
+.prev-review{
+    padding: rem(30px) rem(25px);
+    width: rem(360px);
+    height: rem(200px);
+    background-color: $clr5;
+    div:nth-child(1){
+        margin-top: rem(20px);
+    }
+    img{
+        width: rem(30px);
+        height: rem(30px);
+        object-fit: cover;
+        border-radius: 40%;
+        margin-right: 4px;
+    }
+}

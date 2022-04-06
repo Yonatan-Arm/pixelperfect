@@ -1,0 +1,52 @@
+.main-footer{
+    justify-content: center;
+    padding-bottom: rem(100px);
+    margin-top: rem(60px);
+    margin-left: rem(50px);
+    color: $clr2;
+    @include for-sm-layout {
+        flex-direction: column;
+        margin-left: rem(10px);
+        gap: 10px;
+     }
+    .logo{
+        width: rem(120px);
+        height: rem(51px)
+        
+    }
+    span{
+        gap: 10px;
+        img{
+            height: rem(15px);
+            width: rem(15px);
+            margin-right: rem(10px);
+         
+
+        }
+    }
+     .location-icon{
+            height: rem(15px);
+            width: rem(15px);
+            margin-top: rem(30px);
+        }
+
+    div{
+        width: rem(300px);
+    }
+    .contect{
+        margin-top: rem(50px);
+        gap: 10px;
+        margin-left: rem(50px);
+        @include for-sm-layout {
+            margin-left: rem(10px);
+         }
+    }
+
+    .links{
+        margin-top: rem(50px);
+        gap: rem(10px);
+        font-size: rem(16px);
+        font-family: open-regular;
+    }
+
+}

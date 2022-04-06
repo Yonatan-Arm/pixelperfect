@@ -1,0 +1,41 @@
+.main-hero{
+    justify-content: center;
+    background-image:url('../../assets//images/bg-curvy-desktop.svg');
+     img{
+         width: rem(720px);
+         height:rem(530px) ;
+         @include for-sm-layout {
+            width: 80vw;
+            height:rem(400px) 
+        }
+     }
+     h2{
+         color: $clr2;
+         font-size: rem(40px);
+         font-family:rale-bold ;
+         line-height: 1px;
+         @include for-sm-layout {
+           font-size: 22px; 
+        }
+         
+     }
+     pre{
+        color: $clr2;
+        font-size: rem(20px);
+        font-family:open-regular;
+        @include for-sm-layout {
+            font-size: 16px; 
+         }
+
+     }
+     button{
+         height: rem(56px);
+         width: rem(280px);
+         border-radius: rem(30px);
+         background-color: $clr3;
+         color: $clr2;
+         font-size: rem(16px);
+         font-family:rale-bold;
+     }
+
+}

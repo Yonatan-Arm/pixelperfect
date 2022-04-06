@@ -1,0 +1,26 @@
+.productive{
+    margin-top: rem(80px);
+    justify-content: center;
+    gap: rem(30px);
+    @include for-sm-layout {
+        flex-direction: column;
+     }
+    h1{
+       
+        font-size: rem(40px);
+        font-family: rale-bold;
+        width: 400px;
+    }
+    .text-container{
+        width: rem(500px);
+        color: $clr2;
+        a{
+            color: $clr4;
+            font-family: open-regular;
+        }
+        img{
+            height: rem(12px);
+            width:rem( 12px);
+        }
+    }
+}
